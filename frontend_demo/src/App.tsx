@@ -1,9 +1,7 @@
 import React from "react";
 import RetellCallStudio from "./components/RetellCallStudio";
-import "./index.css"; // keep Tailwind styles
+import "./App.css";
 
-function App() {
+export default function App() {
   return <RetellCallStudio />;
 }
-
-export default App;
